@@ -6,24 +6,6 @@ import { SameComp } from "./same-component";
 import EventAsync from "./event-async";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
-// const Child = ({ route }) => {
-//   useEffectOnce(() => {
-//     console.log("mount child");
-//     return () => {
-//       console.log("unmount child");
-//     };
-//   });
-//   return (
-//     <div>
-//       <h2>Child</h2>
-//       {/* child routes won't render without this */}
-//       {renderRoutes(route.routes, {
-//         someProp: "these extra props are optional"
-//       })}
-//     </div>
-//   );
-// };
-
 export default function App() {
   return (
     <div className="App">
